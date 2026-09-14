@@ -40,32 +40,6 @@ body {
   animation: arrive 450ms ease-out both;
 }
 
-.calculator__topline {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 18px;
-  color: var(--muted);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-
-.calculator__status {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.calculator__status::before {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #79a882;
-  content: "";
-}
-
 .display {
   min-height: 132px;
   display: flex;
